@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import CycleBlockingDemo from "./pages/CycleBlockingDemo";
+import BlockingImageDemo from "./pages/BlockingImageDemo";
 
 import "./App.css";
 
@@ -31,7 +32,7 @@ class App extends Component {
                             exact
                             component={CycleBlockingDemo}
                         />
-                        <Route path="/demo-2" component={PageStub} />
+                        <Route path="/demo-2" component={BlockingImageDemo} />
                         <Route path="/demo-3" component={PageStub} />
                     </main>
                 </div>

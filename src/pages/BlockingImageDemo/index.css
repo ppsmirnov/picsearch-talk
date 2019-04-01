@@ -1,0 +1,10 @@
+.blocking-image-demo__layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocking-image-demo__layout > * {
+    /* border: 1px dashed darkgoldenrod; */
+    margin: 0 20px;
+    min-width: 300px;
+}

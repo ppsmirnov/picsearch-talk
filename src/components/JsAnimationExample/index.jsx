@@ -15,7 +15,7 @@ class JsAnimationExample extends Component {
         }
     }
 
-    componentWillMount() {
+    componentWillUnmount() {
         window.cancelAnimationFrame(this.rafId);
     }
 
