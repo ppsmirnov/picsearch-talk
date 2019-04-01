@@ -3,10 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import CycleBlockingDemo from "./pages/CycleBlockingDemo";
 import BlockingImageDemo from "./pages/BlockingImageDemo";
+import NonblockingImageDemo from './pages/NonblockingImageDemo';
 
 import "./App.css";
-
-const PageStub = () => <div>PageStub</div>;
 
 class App extends Component {
     render() {
@@ -33,7 +32,7 @@ class App extends Component {
                             component={CycleBlockingDemo}
                         />
                         <Route path="/demo-2" component={BlockingImageDemo} />
-                        <Route path="/demo-3" component={PageStub} />
+                        <Route path="/demo-3" component={NonblockingImageDemo} />
                     </main>
                 </div>
             </Router>
