@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import CycleBlockingDemo from "./pages/CycleBlockingDemo";
+
 import "./App.css";
 
 const PageStub = () => <div>PageStub</div>;
@@ -23,10 +25,15 @@ class App extends Component {
                             </li>
                         </ul>
                     </nav>
-
-                    <Route path="/demo-1" exact component={PageStub} />
-                    <Route path="/demo-2" component={PageStub} />
-                    <Route path="/demo-3" component={PageStub} />
+                    <main className="main">
+                        <Route
+                            path="/demo-1"
+                            exact
+                            component={CycleBlockingDemo}
+                        />
+                        <Route path="/demo-2" component={PageStub} />
+                        <Route path="/demo-3" component={PageStub} />
+                    </main>
                 </div>
             </Router>
         );
