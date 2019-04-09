@@ -1,15 +1,17 @@
-import React, { Fragment } from "react";
+import React from "react";
+
+import "./index.css";
 
 import GifExample from "../GifExample";
 import CssAnimationExample from "../CssAnimationExample";
 import JsAnimationExample from "../JsAnimationExample";
 
 const Examples = () => (
-    <Fragment>
+    <div className="examples">
         <GifExample />
         <CssAnimationExample />
         <JsAnimationExample />
-    </Fragment>
+    </div>
 );
 
 export default Examples;

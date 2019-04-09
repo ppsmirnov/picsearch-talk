@@ -1,9 +1,0 @@
-.blocking-image-demo__layout {
-    display: flex;
-    justify-content: space-between;
-}
-
-.blocking-image-demo__layout > * {
-    margin: 0 20px;
-    min-width: 300px;
-}

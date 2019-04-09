@@ -1,9 +1,0 @@
-.nonblocking-image-demo__layout {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nonblocking-image-demo__layout > * {
-    margin: 0 20px;
-    min-width: 300px;
-}
