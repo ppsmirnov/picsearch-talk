@@ -18,7 +18,7 @@ class CycleBlockingDemo extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Демо блокировани потока</h1>
+                <h1>Демо блокирования потока</h1>
                 <Examples />
                 <button onClick={this.handleClick}>
                     Заблокировать поток на 5 секунд

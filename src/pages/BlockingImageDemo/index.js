@@ -55,7 +55,7 @@ class BlockingImageDemo extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Демо блокирования фоткой</h1>
+                <h1>Демо блокирования загрузкой фотки</h1>
                 <div className="blocking-image-demo__layout">
                     <Examples />
                     <canvas

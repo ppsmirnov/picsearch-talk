@@ -22,7 +22,8 @@ class JsAnimationExample extends Component {
     render() {
         return (
             <section>
-                <h2> JS анимация </h2>{" "}
+                <h2> JS анимация </h2>
+                <h3><code>requestAnimationFrame</code></h3>
                 <span
                     role="img"
                     aria-label="cat"
